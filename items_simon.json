@@ -1,0 +1,172 @@
+[
+  {
+    "index": "0",
+    "name": "Mimi (SVI 251) [ENG]",
+    "price": "27.72",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2",
+    "image": "/uploads/1725184576832.jpg",
+    "previousPrice": 28.02,
+    "changePercentage": "6.61"
+  },
+  {
+    "index": 7,
+    "name": "Raichu (BS 14) [DE]",
+    "price": "23.25",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4",
+    "image": "/uploads/1725185016600.jpg",
+    "previousPrice": 24.09,
+    "changePercentage": "16.31"
+  },
+  {
+    "index": 8,
+    "name": "Nachtara V (s8b 244)",
+    "price": "36.11",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2",
+    "image": "/uploads/1725185150330.jpg",
+    "previousPrice": 36.11
+  },
+  {
+    "index": 14,
+    "name": "Pikachu (sv2a 173)",
+    "price": "10.52",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2",
+    "image": "/uploads/1725186952263.jpg",
+    "previousPrice": 10.04
+  },
+  {
+    "index": 19,
+    "name": "Pikachu (LOR TG05)",
+    "price": "11.21",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2",
+    "image": "/uploads/1725188185338.jpg",
+    "previousPrice": 11.23,
+    "changePercentage": "137.61"
+  },
+  {
+    "index": 20,
+    "name": "Freunde aus Sinnoh (CRZ 149) [DE]",
+    "price": "8.17",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2",
+    "image": "/uploads/1725188568515.jpg",
+    "previousPrice": 8.29,
+    "changePercentage": "17.43"
+  },
+  {
+    "index": 50,
+    "name": "Don!! (PRB Sabo) (V.2)",
+    "price": "2.25",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3",
+    "image": "/uploads/1725615820453.png",
+    "previousPrice": 2.17
+  },
+  {
+    "index": "",
+    "name": "Pikachu V (s8b 222)",
+    "price": "23.50",
+    "in_stock": "1",
+    "buyed": "1",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6",
+    "image": "/uploads/1743425866412.png",
+    "previousPrice": "27.73"
+  },
+  {
+    "index": "",
+    "name": "Welten im Wandel Booster",
+    "price": "28.14",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3",
+    "image": "/uploads/1743944577766.png",
+    "previousPrice": 38.94
+  },
+  {
+    "index": "",
+    "name": "Volcanion ex (JTG 182)",
+    "price": "26.04",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3",
+    "image": "/uploads/1744054012004.png",
+    "previousPrice": 26.54,
+    "changePercentage": "-1.19"
+  },
+  {
+    "index": "",
+    "name": "Lillys Piepi ex (JTG 173)",
+    "price": "10.55",
+    "in_stock": "2",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3",
+    "image": "/uploads/1744054093463.png",
+    "previousPrice": 10.79,
+    "changePercentage": "-13.49"
+  },
+  {
+    "index": "",
+    "name": "Enigmaras Voltrean (JTG 163)",
+    "price": "6.27",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3",
+    "image": "/uploads/1744107158901.png",
+    "previousPrice": 6.59,
+    "changePercentage": "-14.24"
+  },
+  {
+    "index": "",
+    "name": "Wailord (JTG 162)",
+    "price": "11.17",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3",
+    "image": "/uploads/1744107337710.png",
+    "previousPrice": 11.32,
+    "changePercentage": "-23.87"
+  },
+  {
+    "index": "",
+    "name": "Volcanion ex (JTG 171)",
+    "price": "1.68",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3",
+    "image": "/uploads/1744107437142.png",
+    "previousPrice": 1.63,
+    "changePercentage": "-16.05"
+  },
+  {
+    "index": "",
+    "name": "Stachel-Energie (JTG 190)",
+    "price": "7.83",
+    "in_stock": "1",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Spiky-Energy-V2-JTG190?sellerCountry=7&sellerReputation=3",
+    "image": "/uploads/1744114286148.png",
+    "previousPrice": 7.6,
+    "changePercentage": "1.14"
+  },
+  {
+    "index": "",
+    "name": "151 Booster",
+    "price": "16.71",
+    "in_stock": "2",
+    "buyed": "0",
+    "link": "https://www.cardmarket.com/de/Pokemon/Products/Boosters/151-Booster?sellerCountry=7&sellerReputation=3&language=1",
+    "image": "/uploads/1744185160361.png",
+    "previousPrice": "16.71"
+  }
+]

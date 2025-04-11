@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeBinder: Meine Sammlung</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div id="overlay">
+        <div class="loader"></div>
+        <div id="overlay-content">
+            <h2>Aktualisiere Preise...</h2>
+            <p id="current-item">Sammlerstück: <span id="current-item-name"></span></p>
+            <p id="current-price">Preis: <span id="current-item-price"></span>€</p>
+            <span id="pause-update" class="material-icons" style="color: #fff;cursor: pointer;margin-right: 10%;">pause</span>
+            <span id="resume-update" class="material-icons" style="color: #fff;cursor: pointer; display: none;margin-right: 10%;">play_arrow</span>
+            <span id="stop-update" class="material-icons" style="color: #ff4f4f;cursor: pointer;margin-left: 10%;">close</span>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Mein Lager <button id="update-catalog" type="button"><span class="material-icons" style="color:#fff">sync</span></button><div id="loading-bar" style="display: none;">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                <span id="progress-percentage" style="font-size:14px;position: absolute;top: 85px;text-align: center;font-weight: 700;">0%</span>
+            </div>
+        </div>
+        </h1>
+        <!-- Floating Action Button -->
+    <div id="fab" class="fab">
+        <span class="material-icons">add</span>
+    </div>
+
+<!-- Modal für das Hinzufügen von Items -->
+<div id="add-item-modal" class="modal">
+    <div class="modal-content">
+            <h2>Item hinzufügen</h2>
+            <div class="content" style="display: block">
+                <form id="item-form" enctype="multipart/form-data">
+                    <input type="hidden" name="index" id="index">
+                    <label for="image">Bild:</label>
+                    <input type="file" id="image" name="image">
+                    <label for="name">Name der Investition:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="price">Preis:</label>
+                    <input type="text" id="price" name="price" value="0" required>
+                    <label for="in_stock">Auf Lager:</label>
+                    <input type="number" id="in_stock" name="in_stock" value="0" required>
+                    <label for="buyed">Gekauft für:</label>
+                    <input type="text" id="buyed" name="buyed" value="0" required>
+                    <label for="link">Link:</label>
+                    <input type="url" id="link" name="link" required>
+                    <button type="submit">Sammlerstück hinzufügen</button>
+                    <button id="close-modal" class="close-modal">Abbrechen</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <ul id="item-list"></ul>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#fab').click(function() {
+                $('#add-item-modal').fadeIn();
+            });
+
+            // Den Schließen-Button des Modals ansprechen
+            $('#close-modal').click(function() {
+                $('#add-item-modal').fadeOut();
+            });
+            let socket;
+            const connectWebSocket = () => {
+                socket = new WebSocket('ws://localhost');
+                socket.onopen = () => {
+                    console.log('[CLIENT] Die Verbindung mit dem Server war erfolgreich.');
+                    if (localStorage.getItem('updatingCatalog') === 'true') {
+                        $('#loading-bar').show();
+                        $('#overlay').show();
+                        $('.progress-bar').css('width', `${localStorage.getItem('progress')}%`).attr('aria-valuenow', localStorage.getItem('progress'));
+                        $('#progress-percentage').text(`${localStorage.getItem('progress')}%`);
+                    }
+                };
+                socket.onmessage = (event) => {
+                    const data = JSON.parse(event.data);
+                    if (data.type === 'updateItems') {
+                        loadItems(data.items);
+                    } else if (data.progress !== undefined) {
+                        const progress = data.progress.toFixed(2);
+                        localStorage.setItem('progress', progress);
+                        $('.progress-bar').css('width', `${progress}%`).attr('aria-valuenow', progress);
+                        $('#progress-percentage').text(`${progress}%`);
+                    } else if (data.type === 'priceUpdate') {
+                        $('#overlay').show();
+                        $('#current-item-name').text(data.item.name);
+                        $('#current-item-price').text(data.item.price);
+                        console.log(data);
+                    } else if (data.type === 'noUpdates') {
+                        $('#loading-bar').hide();
+                        $('#overlay').hide();
+                        localStorage.removeItem('updatingCatalog');
+                        localStorage.removeItem('progress');
+                    } else if (data.type === 'updateStatus') {
+                        if (data.status === 'paused') {
+                            $('#pause-update').hide();
+                            $('#resume-update').show();
+                        } else if (data.status === 'resumed') {
+                            $('#pause-update').show();
+                            $('#resume-update').hide();
+                        } else if (data.status === 'stopped') {
+                            $('#loading-bar').hide();
+                            $('#overlay').hide();
+                            localStorage.removeItem('updatingCatalog');
+                            localStorage.removeItem('progress');
+                        }
+                    }
+                };
+                socket.onclose = () => {
+                    console.log('[CLIENT] Die Verbindung wurde getrennt, die Verbindung wird versucht wiederherzustellen.');
+                    setTimeout(connectWebSocket, 1000);
+                };
+                socket.onerror = (error) => {
+                    console.error('[CLIENT] Fehler:', error);
+                };
+            }; 
+            connectWebSocket();
+
+        function loadItems(items) {
+            if (!Array.isArray(items)) {
+                console.error('[CLIENT] Item konnte nicht geladen werden:', items);
+                return;
+            }
+            $('#item-list').empty();
+            $('#charts-container').empty();
+            let totalValueBuyeds = 0;
+            let totalValueBuyed = 0;
+            let totalValue = 0;
+            items.forEach((item, index) => {
+                const price = parseFloat(item.price);
+                const inStock = parseInt(item.in_stock, 10);
+                const buyed = parseFloat(item.buyed);
+                const itemTotalValue = price * inStock;
+                const itemSpent = buyed * inStock;
+                const itemProfit = itemTotalValue - itemSpent;
+
+                totalValueBuyeds += itemSpent;
+                totalValueBuyed += itemProfit;
+                totalValue += itemTotalValue;
+                let priceChange = '';
+                if (item.previousPrice) {
+                    const previousPrice = parseFloat(item.previousPrice);
+                    if (price > previousPrice) {
+                        priceChange = '<span class="material-icons" style="color: #6cff77;float: right;position: absolute;line-height: 15px;margin-left: 60px;">trending_up</span>';
+                    } else if (price < previousPrice) {
+                        priceChange = '<span class="material-icons" style="color: #ff7272;float: right;position: absolute;line-height: 15px;margin-left: 60px;">trending_down</span>';
+                    }
+                }
+                $('#item-list').append(`
+                    <li data-index="${index}">
+                        <div class="item-info">
+                            <div class="item-image">
+                                <img src="${item.image}" alt="Item Image">
+                            </div>
+                            <div class="item-details" style="float: left;margin-left: 50px;">
+                                <div class="item-name">${item.name}</div>
+                                <div class="item-price">Preis: ${price.toFixed(2)}€ ${priceChange}</div>
+                                <button type="button" class="collapsible" style="width: 540px;font-weight: 600;"><span class="material-icons" style="color: #4576c5;">info</span>Mehr Informationen</button>
+                                <div class="content" style="width: 518px;margin-top: -5px;padding: 10px 10px; display: none;">
+                                    <div class="item-stock">
+                                        <span class="material-icons">inventory</span> <b>${inStock}</b>
+                                        <span class="tooltiptext">Auf Lager</span>
+                                    </div>
+                                    <div class="item-total-value">
+                                        <span class="material-icons">price_change</span> <b style="font-weight: bold;">${itemTotalValue.toFixed(2)}</b>€
+                                        <span class="tooltiptext">Gesamtwert</span>
+                                    </div>
+                                    <div class="item-spent">
+                                        <span class="material-icons">money_off</span> <b style="color: #af4343;">${itemSpent.toFixed(2)}</b>€
+                                        <span class="tooltiptext">Dafür bezahlt</span>
+                                    </div>
+                                    <div class="item-profit">
+                                        <span class="material-icons">savings</span> 
+                                        <b style="color: ${parseFloat(item.changePercentage) >= 0 ? '#43af56' : '#af4343'};">
+                                            	${parseFloat(item.changePercentage).toFixed(2)}%
+                                        </b>
+                                        <span class="tooltiptext">Wert-Gewinn</span>
+                                    </div>
+                                    <div id="charts-container" style="width: 470px;">
+                                         <div class="chart">
+                                            <img src="/charts/${item.name}.png" style="width: 430px;height: 230px;" alt="${item.name} Chart">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <a href="${item.link}" target="_blank">
+                                <span class="material-icons" style="color: #3c7abd;">link</span>
+                            </a>
+                            <span class="material-icons edit-item" style="color: #bd963c">edit</span>
+                            <span class="material-icons delete-item" style="color: #af4343">delete</span>
+                        </div>
+                    </li>
+                `);
+            });
+            $('#item-list').append(`
+                <li>Ausgaben derzeit: <b style="color: #af4343" id="total-value-buyeds">${totalValueBuyeds.toFixed(2)}€</b></li>
+                <li>Gewinn derzeit: <b style="color: #43af56" id="total-value-buyed">+ ${totalValueBuyed.toFixed(2)}€</b></li>
+                <li>Gesamtwert derzeit: <b id="total-value">${totalValue.toFixed(2)}€</b></li>
+            `);
+            $('.collapsible').off('click').on('click', function() {
+                $(this).toggleClass('active');
+                var content = $(this).next('.content');
+                content.slideToggle();
+            });
+        $('.edit-item').off('click').on('click', function() {
+            $('#add-item-modal').fadeIn();
+                const index = $(this).closest('li').data('index');
+                const item = items[index];
+                $('#index').val(index);
+                $('#name').val(item.name);
+                $('#price').val(item.price);
+                $('#in_stock').val(item.in_stock);
+                $('#buyed').val(item.buyed);
+                $('#link').val(item.link);
+                if (item.image) {
+                    $('#preview-image').attr('src', item.image).show();
+                } else {
+                    $('#preview-image').hide();
+                }
+                
+                $('#item-form').off('submit').on('submit', function(event) {
+                    event.preventDefault();
+                    const item = {
+                        index: $('#index').val(),
+                        name: $('#name').val(),
+                        price: $('#price').val(),
+                        in_stock: $('#in_stock').val(),
+                        buyed: $('#buyed').val(),
+                        link: $('#link').val()
+                    };
+                    if ($('#image')[0].files.length > 0) {
+                        const reader = new FileReader();
+                        reader.onload = function(e) {
+                        item.image = e.target.result;
+                        socket.send(JSON.stringify({ type: 'addItem', item }));
+                    };
+                    reader.readAsDataURL($('#image')[0].files[0]);
+                } else {
+                    item.image = $('#preview-image').attr('src');
+                    socket.send(JSON.stringify({ type: 'addItem', item }));
+                }
+                $('#item-form')[0].reset();
+                $('#preview-image').hide();
+            });
+        });
+
+        $('.delete-item').off('click').on('click', function() {
+            const index = $(this).closest('li').data('index');
+            $.ajax({
+                url: `/api/items/${index}`,
+                type: 'DELETE',
+                success: function(data) {
+                    loadItems(data);
+                },
+                error: function() {
+                    console.error('[CLIENT] Item konnte nicht gelöscht werden.');
+                }
+            });
+            });
+        }
+        $('#item-form').submit(function(event) {
+            event.preventDefault();
+            const item = {
+                index: $('#index').val(),
+                name: $('#name').val(),
+                price: $('#price').val(),
+                in_stock: $('#in_stock').val(),
+                buyed: $('#buyed').val(),
+                link: $('#link').val()
+            };
+            if ($('#image')[0].files.length > 0) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                item.image = e.target.result;
+                socket.send(JSON.stringify({ type: 'addItem', item }));
+            };
+            reader.readAsDataURL($('#image')[0].files[0]);
+        } else {
+            socket.send(JSON.stringify({ type: 'addItem', item }));
+        }
+        
+
+        $('#item-form')[0].reset();
+            $('#preview-image').hide();
+        });
+
+        $('#update-catalog').click(function() {
+            $('#loading-bar').show();
+            $('#overlay').show();
+            localStorage.setItem('updatingCatalog', 'true');
+            $('.progress-bar').css('width', '0%').attr('aria-valuenow', 0);
+            $('#progress-percentage').text('0%');
+
+            $.post('/api/resync-prices', function(response) {
+                console.log(response.message);
+                loadItems();
+                $('#loading-bar').hide();
+                $('#overlay').hide();
+                localStorage.removeItem('updatingCatalog');
+                localStorage.removeItem('progress');
+                location.reload();
+            }).fail(function() {
+                console.error('[CLIENT] Katalog konnte nicht aktualisiert werden.');
+                $('#loading-bar').hide();
+                $('#overlay').hide();
+                localStorage.removeItem('updatingCatalog');
+                localStorage.removeItem('progress');
+                location.reload();
+            });
+        });
+
+        $(document).on('click', '.update-item', function() {
+            console.log('Update button clicked');
+            const index = $(this).closest('li').data('index');
+            $.post('/api/update-item-price', { index }, function(response) {
+                console.log(response.message);
+                loadItems(response.item);
+                location.reload();
+            }).fail(function() {
+                console.error('[CLIENT] Price could not be updated.');
+            });
+        });
+        $('#pause-update').click(function() {
+            socket.send(JSON.stringify({ type: 'pauseUpdate' }));
+        });
+        $('#resume-update').click(function() {
+            socket.send(JSON.stringify({ type: 'resumeUpdate' }));
+        });
+        $('#stop-update').click(function() {
+            socket.send(JSON.stringify({ type: 'stopUpdate' }));
+        });
+        $.get('/api/items', function(data) {
+            loadItems(data);
+        }).fail(function() {
+            console.error('[CLIENT] Daten konnten nicht geladen werden.');
+        });
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeBinder: Overlay</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            padding: 20px;
+            background: #121212;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #6200ea;
+            color: white;
+            font-size: 18px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            margin: 10px;
+            width: 200px;
+        }
+        .button:hover {
+            background: #3700b3;
+        }
+        .button .material-icons {
+            margin-right: 8px;
+        }
+        #log {
+            width: 90%;
+            max-width: 600px;
+            height: 300px;
+            overflow-y: auto;
+            background: #1e1e1e;
+            color: #03dac6;
+            padding: 10px;
+            font-family: monospace;
+            border-radius: 8px;
+            text-align: left;
+            margin-top: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Deine Sammlung startet hier</h2>
+        <button id="startBtn" class="button" onclick="startServer()">
+            <span class="material-icons">play_arrow</span> Server starten
+        </button>
+        <button id="stopBtn" class="button" onclick="stopServer()" style="display: none;">
+            <span class="material-icons">pause</span> Server Stopen
+        </button>
+        <div id="log">Alle Aktivitäten:</div>
+    </div>
+
+    <script>
+        const { ipcRenderer } = require('electron');
+        ipcRenderer.on('log', (event, message) => {
+            const logDiv = document.getElementById('log');
+            logDiv.innerHTML += `<p>${message}</p>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        });
+
+        ipcRenderer.on('server-status', (event, isRunning) => {
+            document.getElementById('startBtn').style.display = isRunning ? 'none' : 'flex';
+            document.getElementById('stopBtn').style.display = isRunning ? 'flex' : 'none';
+        });
+
+        function startServer() {
+            ipcRenderer.send('start-server');
+        }
+
+        function stopServer() {
+            ipcRenderer.send('stop-server');
+        }
+    </script>
+</body>
+</html>

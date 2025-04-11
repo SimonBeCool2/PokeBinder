@@ -1,0 +1,84 @@
+2025-04-09T09:49:25.322Z [INFO] Starting price update for 16 items
+2025-04-09T09:49:25.326Z [INFO] Processing item: Mimi (SVI 251) [ENG]
+2025-04-09T09:49:25.561Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2
+2025-04-09T09:49:30.381Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: 29.320999999999998
+2025-04-09T09:49:30.383Z [INFO] Updated price for Mimi (SVI 251) [ENG]: 29.320999999999998
+2025-04-09T09:49:30.384Z [INFO] Processing item: Raichu (BS 14) [DE]
+2025-04-09T09:49:30.585Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4
+2025-04-09T09:49:32.939Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: 22.970000000000002
+2025-04-09T09:49:32.940Z [INFO] Updated price for Raichu (BS 14) [DE]: 22.970000000000002
+2025-04-09T09:49:32.941Z [INFO] Processing item: Nachtara V (s8b 244)
+2025-04-09T09:49:33.153Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2
+2025-04-09T09:49:35.587Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: 36.108
+2025-04-09T09:49:35.588Z [INFO] Updated price for Nachtara V (s8b 244): 36.108
+2025-04-09T09:49:35.589Z [INFO] Processing item: Pikachu (sv2a 173)
+2025-04-09T09:49:35.794Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2
+2025-04-09T09:49:37.965Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: 10.165
+2025-04-09T09:49:37.966Z [INFO] Updated price for Pikachu (sv2a 173): 10.165
+2025-04-09T09:49:37.967Z [INFO] Processing item: Pikachu (LOR TG05)
+2025-04-09T09:49:38.177Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2
+2025-04-09T09:49:40.443Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: 11.352999999999998
+2025-04-09T09:49:40.444Z [INFO] Updated price for Pikachu (LOR TG05): 11.352999999999998
+2025-04-09T09:49:40.445Z [INFO] Processing item: Freunde aus Sinnoh (CRZ 149) [DE]
+2025-04-09T09:49:40.658Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2
+2025-04-09T09:49:42.782Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: 7.686000000000002
+2025-04-09T09:49:42.783Z [INFO] Updated price for Freunde aus Sinnoh (CRZ 149) [DE]: 7.686000000000002
+2025-04-09T09:49:42.784Z [INFO] Processing item: Don!! (PRB Sabo) (V.2)
+2025-04-09T09:49:43.003Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3
+2025-04-09T09:49:44.880Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: 2.1710000000000003
+2025-04-09T09:49:44.881Z [INFO] Updated price for Don!! (PRB Sabo) (V.2): 2.1710000000000003
+2025-04-09T09:49:44.882Z [INFO] Processing item: Pikachu V (s8b 222)
+2025-04-09T09:49:45.084Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6
+2025-04-09T09:49:46.932Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: 23.5
+2025-04-09T09:49:46.933Z [INFO] Updated price for Pikachu V (s8b 222): 23.5
+2025-04-09T09:49:46.933Z [INFO] Processing item: Welten im Wandel Booster
+2025-04-09T09:49:47.147Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3
+2025-04-09T09:49:48.947Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3: 28.139
+2025-04-09T09:49:48.948Z [INFO] Updated price for Welten im Wandel Booster: 28.139
+2025-04-09T09:49:48.948Z [INFO] Processing item: Volcanion ex (JTG 182)
+2025-04-09T09:49:49.152Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3
+2025-04-09T09:49:51.102Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3: 27.844
+2025-04-09T09:49:51.103Z [INFO] Updated price for Volcanion ex (JTG 182): 27.844
+2025-04-09T09:49:51.104Z [INFO] Processing item: Lillys Piepi ex (JTG 173)
+2025-04-09T09:49:51.316Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3
+2025-04-09T09:49:53.413Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3: 11.096
+2025-04-09T09:49:53.414Z [INFO] Updated price for Lillys Piepi ex (JTG 173): 11.096
+2025-04-09T09:49:53.415Z [INFO] Processing item: Enigmaras Voltrean (JTG 163)
+2025-04-09T09:49:53.618Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3
+2025-04-09T09:49:55.785Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3: 6.709999999999999
+2025-04-09T09:49:55.786Z [INFO] Updated price for Enigmaras Voltrean (JTG 163): 6.709999999999999
+2025-04-09T09:49:55.787Z [INFO] Processing item: Wailord (JTG 162)
+2025-04-09T09:49:55.997Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3
+2025-04-09T09:49:58.119Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3: 12.976999999999999
+2025-04-09T09:49:58.120Z [INFO] Updated price for Wailord (JTG 162): 12.976999999999999
+2025-04-09T09:49:58.120Z [INFO] Processing item: Volcanion ex (JTG 171)
+2025-04-09T09:49:58.317Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3
+2025-04-09T09:50:00.602Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3: 1.6349999999999998
+2025-04-09T09:50:00.603Z [INFO] Updated price for Volcanion ex (JTG 171): 1.6349999999999998
+2025-04-09T09:50:00.604Z [INFO] Processing item: Stachel-Energie (JTG 190)
+2025-04-09T09:50:00.810Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Spiky-Energy-V2-JTG190?sellerCountry=7&sellerReputation=3
+2025-04-09T09:50:02.919Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Spiky-Energy-V2-JTG190?sellerCountry=7&sellerReputation=3: 7.575
+2025-04-09T09:50:02.920Z [INFO] Updated price for Stachel-Energie (JTG 190): 7.575
+2025-04-09T09:50:02.921Z [INFO] Processing item: 151 Booster
+2025-04-09T09:50:03.122Z [INFO] Fetching URL (attempt 1): https://www.cardmarket.com/de/Pokemon/Products/Boosters/151-Booster?sellerCountry=7&sellerReputation=3&language=1
+2025-04-09T09:50:04.865Z [INFO] Successfully retrieved price for https://www.cardmarket.com/de/Pokemon/Products/Boosters/151-Booster?sellerCountry=7&sellerReputation=3&language=1: 16.70625
+2025-04-09T09:50:04.866Z [INFO] Updated price for 151 Booster: 16.70625
+2025-04-09T09:50:04.879Z [INFO] Price updates completed successfully
+2025-04-09T09:50:04.881Z [INFO] Cleaning price data...
+2025-04-09T09:50:04.889Z [INFO] Price data cleaning completed
+2025-04-09T09:50:05.334Z [INFO] Chart generated for 151 Booster
+2025-04-09T09:50:05.369Z [INFO] Chart generated for Volcanion ex (JTG 182)
+2025-04-09T09:50:05.393Z [INFO] Chart generated for Volcanion ex (JTG 171)
+2025-04-09T09:50:05.394Z [INFO] Chart generated for Wailord (JTG 162)
+2025-04-09T09:50:05.405Z [INFO] Chart generated for Stachel-Energie (JTG 190)
+2025-04-09T09:50:05.502Z [INFO] Chart generated for Pikachu V (s8b 222)
+2025-04-09T09:50:05.549Z [INFO] Chart generated for Nachtara V (s8b 244)
+2025-04-09T09:50:05.575Z [INFO] Chart generated for Welten im Wandel Booster
+2025-04-09T09:50:05.578Z [INFO] Chart generated for Lillys Piepi ex (JTG 173)
+2025-04-09T09:50:05.588Z [INFO] Chart generated for Freunde aus Sinnoh (CRZ 149) [DE]
+2025-04-09T09:50:05.608Z [INFO] Chart generated for Enigmaras Voltrean (JTG 163)
+2025-04-09T09:50:05.616Z [INFO] Chart generated for Don!! (PRB Sabo) (V.2)
+2025-04-09T09:50:05.673Z [INFO] Chart generated for Pikachu (sv2a 173)
+2025-04-09T09:50:05.779Z [INFO] Chart generated for Raichu (BS 14) [DE]
+2025-04-09T09:50:05.837Z [INFO] Chart generated for Pikachu (LOR TG05)
+2025-04-09T09:50:05.905Z [INFO] Chart generated for Mimi (SVI 251) [ENG]
