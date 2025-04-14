@@ -1,0 +1,346 @@
+2025-04-08T14:50:54.577Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T14:50:57.110Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T14:50:59.363Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T14:51:02.019Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T14:51:04.478Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T14:51:06.934Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T14:51:09.377Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T14:51:11.754Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T14:51:13.955Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T14:51:16.227Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T14:51:19.197Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T14:51:22.072Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T14:51:24.705Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T14:51:27.252Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T14:51:29.573Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T14:53:21.961Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T14:53:24.480Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T14:53:26.902Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T14:53:29.446Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T14:58:16.602Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T14:58:19.377Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T14:58:21.948Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T14:58:25.755Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T14:59:15.856Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T14:59:19.155Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T14:59:22.139Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T14:59:24.738Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:03:10.988Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T15:03:13.393Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:03:15.614Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T15:03:18.161Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:05:28.697Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T15:05:31.320Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:05:33.858Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T15:05:37.248Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:05:39.769Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T15:05:42.717Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:05:45.124Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T15:05:47.480Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T15:05:49.551Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T15:05:51.894Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T15:05:54.202Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T15:05:56.884Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T15:05:59.816Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T15:06:02.167Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T15:06:04.497Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T15:07:24.503Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T15:07:27.243Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:07:29.694Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T15:07:32.319Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:07:34.875Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T15:07:37.394Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:07:39.547Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T15:07:41.865Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T15:07:44.047Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T15:07:46.251Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T15:07:49.111Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T15:07:51.375Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T15:07:53.847Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T15:07:56.294Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T15:07:58.790Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T15:11:39.310Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T15:11:41.844Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:11:44.204Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T15:11:46.622Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:13:15.961Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T15:13:19.409Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:13:21.727Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T15:13:24.464Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:15:21.872Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T15:15:24.859Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:15:27.273Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T15:15:29.737Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:15:32.398Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T15:15:35.122Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:15:37.734Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T15:15:40.070Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T15:15:42.602Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T15:15:44.799Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T15:15:47.319Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T15:15:49.914Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T15:15:52.379Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T15:15:54.805Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T15:15:57.214Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T15:19:52.789Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T15:19:55.287Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:19:57.753Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T15:20:00.348Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T15:20:03.072Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T15:20:07.357Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T15:20:09.707Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T15:20:13.027Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T15:20:15.298Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T15:20:17.517Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T15:20:19.722Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T15:20:21.957Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T15:20:24.419Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T15:20:26.756Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T15:20:29.173Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T17:23:14.292Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T17:23:17.077Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:23:19.458Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T17:23:22.066Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T17:23:24.683Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T17:23:27.478Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:23:29.889Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T17:23:32.042Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T17:23:34.065Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T17:23:36.534Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T17:23:38.887Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T17:23:41.180Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T17:23:43.812Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T17:23:46.251Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T17:23:48.566Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T17:26:31.807Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T17:26:34.183Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:26:36.546Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T17:26:38.868Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T17:26:41.896Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T17:26:44.370Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:27:26.323Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T17:27:28.969Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:27:31.410Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T17:27:33.927Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T17:27:36.414Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T17:28:04.127Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T17:28:06.965Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:28:09.268Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T17:30:31.548Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T17:30:34.678Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:30:37.271Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T17:30:39.746Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T17:30:42.254Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T17:30:47.631Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:30:49.906Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T17:30:52.102Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T17:30:54.243Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T17:30:56.479Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T17:30:58.842Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T17:31:01.103Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T17:31:03.396Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T17:31:05.741Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T17:31:07.947Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T17:33:40.033Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T17:33:42.610Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:33:44.862Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T17:33:47.091Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T17:33:50.065Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T17:33:52.570Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:33:54.804Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T17:33:56.898Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T17:33:58.921Z - [SERVER] Fehler beim Abrufen des Preises für Welten im Wandel Booster: currentPrice.toFixed is not a function
+2025-04-08T17:34:01.486Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 182): currentPrice.toFixed is not a function
+2025-04-08T17:34:03.881Z - [SERVER] Fehler beim Abrufen des Preises für Lillys Piepi ex (JTG 173): currentPrice.toFixed is not a function
+2025-04-08T17:34:06.869Z - [SERVER] Fehler beim Abrufen des Preises für Enigmaras Voltrean (JTG 163): currentPrice.toFixed is not a function
+2025-04-08T17:34:09.310Z - [SERVER] Fehler beim Abrufen des Preises für Wailord (JTG 162): currentPrice.toFixed is not a function
+2025-04-08T17:34:11.795Z - [SERVER] Fehler beim Abrufen des Preises für Volcanion ex (JTG 171): currentPrice.toFixed is not a function
+2025-04-08T17:34:14.015Z - [SERVER] Fehler beim Abrufen des Preises für Stachel-Energie (JTG 190): currentPrice.toFixed is not a function
+2025-04-08T17:35:14.470Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T17:35:17.268Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:35:19.684Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T17:35:22.288Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T17:35:24.811Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T17:35:27.345Z - [SERVER] Fehler beim Abrufen des Preises für Freunde aus Sinnoh (CRZ 149) [DE]: currentPrice.toFixed is not a function
+2025-04-08T17:35:29.736Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T19:18:36.660Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: element is not defined
+2025-04-08T19:18:39.526Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: element is not defined
+2025-04-08T19:19:02.206Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: element is not defined
+2025-04-08T19:19:06.912Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: element is not defined
+2025-04-08T19:19:49.202Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:19:52.018Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:19:54.729Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:19:59.681Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: element is not defined
+2025-04-08T19:20:10.467Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: element is not defined
+2025-04-08T19:20:17.813Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: element is not defined
+2025-04-08T19:20:22.483Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: element is not defined
+2025-04-08T19:20:28.755Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: element is not defined
+2025-04-08T19:20:32.924Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: element is not defined
+2025-04-08T19:20:38.325Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:20:41.747Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:20:48.422Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:20:53.656Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:20:59.365Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:21:21.526Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:21:25.566Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:21:30.220Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:21:52.170Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:22:18.473Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:22:21.231Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:22:27.696Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: element is not defined
+2025-04-08T19:22:55.099Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: element is not defined
+2025-04-08T19:22:57.913Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: element is not defined
+2025-04-08T19:23:04.827Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: element is not defined
+2025-04-08T19:23:09.011Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: element is not defined
+2025-04-08T19:23:25.808Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: element is not defined
+2025-04-08T19:23:33.228Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: element is not defined
+2025-04-08T19:32:13.540Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T19:32:37.457Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T19:33:10.912Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T19:33:29.738Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (LOR TG05): currentPrice.toFixed is not a function
+2025-04-08T19:38:02.636Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T19:38:09.002Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T19:38:13.591Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T19:38:18.978Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T19:38:57.146Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T19:38:57.973Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-08T19:38:59.544Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu V (s8b 222): currentPrice.toFixed is not a function
+2025-04-08T19:39:20.480Z - [SERVER] Fehler beim Abrufen des Preises für Mimi (SVI 251) [ENG]: currentPrice.toFixed is not a function
+2025-04-08T19:39:26.009Z - [SERVER] Fehler beim Abrufen des Preises für Raichu (BS 14) [DE]: currentPrice.toFixed is not a function
+2025-04-08T19:39:32.430Z - [SERVER] Fehler beim Abrufen des Preises für Nachtara V (s8b 244): currentPrice.toFixed is not a function
+2025-04-08T19:39:35.368Z - [SERVER] Fehler beim Abrufen des Preises für Pikachu (sv2a 173): currentPrice.toFixed is not a function
+2025-04-08T19:40:25.032Z - [SERVER] Fehler beim Abrufen des Preises für Don!! (PRB Sabo) (V.2): currentPrice.toFixed is not a function
+2025-04-08T19:40:25.394Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-08T19:42:29.738Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-08T19:42:54.552Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: prices.reduce is not a function
+2025-04-08T19:43:09.797Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: prices.reduce is not a function
+2025-04-08T19:43:15.952Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: prices.reduce is not a function
+2025-04-08T19:43:45.018Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: prices.reduce is not a function
+2025-04-08T19:43:55.205Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: prices.reduce is not a function
+2025-04-08T19:43:58.286Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: prices.reduce is not a function
+2025-04-08T19:44:03.170Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: prices.reduce is not a function
+2025-04-08T19:44:09.798Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: prices.reduce is not a function
+2025-04-08T19:44:26.868Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: prices.reduce is not a function
+2025-04-08T19:44:32.302Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:44:35.802Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:44:38.464Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:44:44.261Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:44:48.726Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:09.106Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:13.260Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:24.270Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:28.460Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:32.110Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:34.760Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:41.240Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: prices.reduce is not a function
+2025-04-08T19:45:43.717Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:45:51.310Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:45:55.326Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:46:01.053Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: prices.reduce is not a function
+2025-04-08T19:46:05.378Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: prices.reduce is not a function
+2025-04-08T19:46:13.993Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: prices.reduce is not a function
+2025-04-08T19:46:20.044Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:46:22.576Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:46:31.820Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:46:34.199Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:46:45.803Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:46:51.878Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:46:55.706Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:46:59.636Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:47:02.704Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3: prices.reduce is not a function
+2025-04-08T19:47:05.070Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:47:09.487Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:47:18.173Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:47:21.184Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:47:35.418Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:47:38.444Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:48:03.319Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:48:06.162Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:48:16.762Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-08T19:48:27.140Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Spiky-Energy-V2-JTG190?sellerCountry=7&sellerReputation=3: prices.reduce is not a function
+2025-04-09T08:39:09.064Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-09T08:39:20.671Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-09T21:53:19.936Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-09T21:53:56.822Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-09T22:00:13.946Z - Uncaught Exception: EPIPE: broken pipe, write
+2025-04-09T22:20:51.865Z - Uncaught Exception: ipcMain is not defined
+2025-04-09T22:21:52.843Z - Uncaught Exception: Cannot read properties of undefined (reading 'on')
+2025-04-09T22:37:24.033Z - Uncaught Exception: listen EADDRINUSE: address already in use :::80
+2025-04-09T22:37:26.344Z - Uncaught Exception: Object has been destroyed
+2025-04-11T19:06:55.870Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:06:57.993Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:07:00.131Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:07:03.458Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:07:05.818Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:07:08.143Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:07:10.320Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:07:12.450Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:07:14.735Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:07:17.017Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:07:19.357Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:07:21.783Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:07:23.983Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:01.925Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:08:04.145Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:08:06.288Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:08:08.743Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:08:10.945Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:08:13.227Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:08:15.389Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:17.526Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:19.543Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:21.830Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:24.113Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:26.505Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:28.877Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:31.168Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:33.435Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:35.905Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:38.083Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:40.253Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Crown-Zenith/Friends-in-Sinnoh-V2-CRZ149?sellerCountry=7&language=7&minCondition=2: languageElement is not defined
+2025-04-11T19:08:42.394Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:08:44.515Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:08:46.660Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:08:48.907Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: languageElement is not defined
+2025-04-11T19:08:51.640Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: languageElement is not defined
+2025-04-11T19:08:53.653Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Pikachu-V-V2-s8b222?sellerCountry=7&sellerReputation=3&language=6: languageElement is not defined
+2025-04-11T19:08:55.729Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:08:57.730Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:08:59.748Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/Cosmic-Eclipse-Booster?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:09:02.345Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:09:04.711Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:09:06.873Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:09:09.220Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:09:11.719Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:09:14.121Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3: languageElement is not defined
+2025-04-11T19:09:16.601Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:19.163Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:21.487Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:23.960Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Obsidian-Flames/Pidgeotto-V2-OBF208?sellerCountry=7&sellerReputation=3&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:09:26.226Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Obsidian-Flames/Pidgeotto-V2-OBF208?sellerCountry=7&sellerReputation=3&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:09:28.609Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Obsidian-Flames/Pidgeotto-V2-OBF208?sellerCountry=7&sellerReputation=3&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:09:30.899Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:33.151Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:35.338Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:37.746Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Spiky-Energy-V2-JTG190?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:39.978Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Spiky-Energy-V2-JTG190?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:42.351Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Spiky-Energy-V2-JTG190?sellerCountry=7&sellerReputation=3: languageElement is not defined
+2025-04-11T19:09:44.214Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/151-Booster?sellerCountry=7&sellerReputation=3&language=1: languageElement is not defined
+2025-04-11T19:09:46.486Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/151-Booster?sellerCountry=7&sellerReputation=3&language=1: languageElement is not defined
+2025-04-11T19:09:48.435Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Boosters/151-Booster?sellerCountry=7&sellerReputation=3&language=1: languageElement is not defined
+2025-04-11T19:09:50.974Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3&language=3&minCondition=2: languageElement is not defined
+2025-04-11T19:09:53.250Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3&language=3&minCondition=2: languageElement is not defined
+2025-04-11T19:09:55.545Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3&language=3&minCondition=2: languageElement is not defined
+2025-04-11T19:11:02.910Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:11:05.070Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:11:07.227Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:11:09.709Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:11:12.127Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:11:14.420Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:12:07.024Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:12:09.070Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:12:11.513Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Scarlet-Violet/Miriam-V3-SVI251?sellerCountry=7&language=1&minCondition=2: languageElement is not defined
+2025-04-11T19:12:13.859Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:12:16.283Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:12:18.798Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4: languageElement is not defined
+2025-04-11T19:12:21.165Z - [SERVER] Fehler beim Abrufen des Preises für https://www.cardmarket.com/de/Pokemon/Products/Singles/VMAX-Climax/Umbreon-V-V2-s8b244?sellerCountry=7&language=7&minCondition=2: languageElement is not defined

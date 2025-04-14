@@ -59,13 +59,14 @@
 </head>
 <body>
     <div class="container">
-        <h2>Deine Sammlung startet hier</h2>
+        <h2>PokeBinder Server</h2>
         <button id="startBtn" class="button" onclick="startServer()">
             <span class="material-icons">play_arrow</span> Server starten
         </button>
         <button id="stopBtn" class="button" onclick="stopServer()" style="display: none;">
             <span class="material-icons">pause</span> Server Stopen
         </button>
+        <button id="autoUpdateBtn" class="server-btn">⏱ Auto Update: Deaktiviert</button>
         <div id="log">Alle Aktivitäten:</div>
     </div>
 
@@ -80,6 +81,41 @@
         ipcRenderer.on('server-status', (event, isRunning) => {
             document.getElementById('startBtn').style.display = isRunning ? 'none' : 'flex';
             document.getElementById('stopBtn').style.display = isRunning ? 'flex' : 'none';
+        });
+
+        const autoUpdateBtn = document.getElementById('autoUpdateBtn');
+        let autoUpdateInterval = null;
+        let countdown = 600; // 10 Minuten in Sekunden
+
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        }
+
+        function updateAutoUpdateLabel() {
+            autoUpdateBtn.textContent = `⏱ Auto Update: ${autoUpdateInterval ? 'Aktiviert - ' + formatTime(countdown) : 'Deaktiviert'}`;
+        }
+
+        autoUpdateBtn.addEventListener('click', () => {
+            if (autoUpdateInterval) {
+                clearInterval(autoUpdateInterval);
+                autoUpdateInterval = null;
+                updateAutoUpdateLabel();
+                ipcRenderer.send('cancel-auto-update');
+            } else {
+                countdown = 10;
+                updateAutoUpdateLabel();
+                autoUpdateInterval = setInterval(() => {
+                    countdown--;
+                    updateAutoUpdateLabel();
+
+                    if (countdown <= 0) {
+                        countdown = 600;
+                        ipcRenderer.send('trigger-auto-update');
+                    }
+                }, 1000);
+            }
         });
 
         function startServer() {

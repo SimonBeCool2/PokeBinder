@@ -213,5 +213,58 @@ app.post('/api/resync-prices', async (req, res) => {
         res.status(500).json({ error: 'Internes Server Problem' });
     }
 });
+process.stdin.on('data', async (data) => {
+    try {
+        const message = JSON.parse(data.toString());
 
+        if (message.type === 'triggerUpdate') {
+            console.log('[SERVER] Auto Update:');
+
+            // Alle Items im Hintergrund aktualisieren
+            //await updateAllPricesInBackground();
+            const ws = [...wss.clients][0];
+            await calculator.updatePrices(ws);
+
+            // Optionale Rückmeldung an alle Clients über den WebSocket
+            wss.clients.forEach((client) => {
+                if (client.readyState === WebSocket.OPEN) {
+                    client.send(JSON.stringify({ message: 'Alle Preise wurden erfolgreich aktualisiert.' }));
+                }
+            });
+        }
+    } catch (err) {
+        console.error('[SERVER] Fehler beim Verarbeiten der IPC-Nachricht:', err);
+    }
+});
+
+// Funktion, um alle Preise im Hintergrund zu aktualisieren
+async function updateAllPricesInBackground() {
+    try {
+        const items = itemManager.getItems();
+        const priceCalculator = new PokemonBoosterPriceCalculator(itemManager);
+        for (let item of items) {
+            try {
+                
+                const currentPrice = await priceCalculator.getPrice(item.link);
+                if (currentPrice !== null) {
+                    console.log(`Neuer Preis für ${item.name}: ${currentPrice.toFixed(2)}`);
+                    item.previousPrice = item.price;
+                    item.price = currentPrice.toFixed(2);
+
+                    await priceCalculator.saveDailyPrice(currentPrice, item.name);
+                    await priceCalculator.generateCharts(item);
+                }
+            } catch (err) {
+                console.error('[ERROR] Fehler beim Aktualisieren des Preises für Item:', item, err);
+            }
+        }
+        // Nach der Aktualisierung alle Items speichern
+        itemManager.saveItems(items);
+        priceCalculator.cleanPrices();
+
+        console.log('[SERVER] Alle Preise wurden erfolgreich aktualisiert.');
+    } catch (err) {
+        console.error('[SERVER] Fehler beim Aktualisieren aller Preise:', err);
+    }
+}
 module.exports = { app, server, wss };

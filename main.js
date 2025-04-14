@@ -4,6 +4,7 @@ const path = require('path');
 
 let mainWindow;
 let serverProcess = null;
+let child = null;
 
 app.whenReady().then(() => {
     mainWindow = new BrowserWindow({
@@ -51,6 +52,9 @@ function startServer() {
 
     sendLog("[GUI] Server wurde gestartet.");
     updateServerStatus(true);
+
+    // Zusätzlicher Debug-Log, um zu überprüfen, ob serverProcess korrekt ist
+    console.log('Serverprozess gestartet:', serverProcess.pid);
 }
 
 function stopServer() {
@@ -100,5 +104,16 @@ app.on('window-all-closed', () => {
     }
 });
 
+ipcMain.on('trigger-auto-update', () => {
+    if (serverProcess && serverProcess.stdin.writable) {
+        serverProcess.stdin.write(JSON.stringify({ type: 'triggerUpdate' }) + '\n');
+    } else {
+        sendLog('[GUI] Fehler: Serverprozess läuft nicht oder stdin nicht beschreibbar.');
+    }
+});
+
+ipcMain.on('cancel-auto-update', () => {
+    console.log('[AUTO-UPDATE] Scheduler gestoppt.');
+});
 ipcMain.on('start-server', () => startServer());
 ipcMain.on('stop-server', () => stopServer());

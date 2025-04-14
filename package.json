@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "electron-builder"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +31,36 @@
   "description": "",
   "devDependencies": {
     "electron": "^35.1.4",
+    "electron-builder": "^26.0.12",
     "electron-packager": "^17.1.2"
+  },
+  "build": {
+    "appId": "com.deinefirma.investmentapp",
+    "productName": "Investment App",
+    "files": [
+      "**/*",                     
+      "!node_modules/.cache",     
+      "!**/*.md",                 
+      "!test*",                   
+      "!*.log"                    
+    ],
+    "extraResources": [
+      {
+        "from": "./",
+        "to": "./"
+      }
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true
+    }
   }
 }

@@ -83,7 +83,9 @@ class PokemonBoosterPriceCalculator {
 
         $(".table-body .article-row").slice(0, 10).each((index, element) => {
             const priceElement = $(element).find(".col-offer.col-auto .color-primary.small.text-end.text-nowrap.fw-bold");
+            const languageElement = $(element).find(".icon.me-2[aria-label]");
             if (priceElement.length > 0) {
+                const language = languageElement.attr("aria-label").trim();
                 const price = parsePrice(priceElement.first());
                 if (!isNaN(price)) {
                     prices.push(price);
