@@ -125,21 +125,21 @@ wss.on('connection', (ws) => {
 });
 
 const server = app.listen(port, () => {
-    console.log(`
+    console.log(`<br>
          ########################################<br>
          #                                      #<br>
-         #   II NN N VV VV EEEE  SSSSS  TTTTTT  #<br>
-         #   II N NN  VVV  Eeee  SsssS    TT    #<br>
-         #   II N  N   V   EEEE  SSSSS    TT    #<br>
+         #                                      #<br>
+         #             PokeBinder               #<br>
+         #                                      #<br>
          #                                      #<br>
          #        IG: @ichbinmalkurzweg         #<br>
          #    E-MAIL: simondevde@gmail.com      #<br>
          #                                      #<br>
          ########################################<br>
     `);
-    console.log('[SERVER] Itemmanager wurde gestartet.');
-    console.log('[SERVER] Booster Preis Kalkulierer wurde gestartet.');
-    console.log(`[SERVER] Invest Server wurde gestartet unter http://localhost:${port}`);
+    console.log('[SERVER] Itemmanager wurde gestartet.<br>');
+    console.log('[SERVER] Preis Updater wurde gestartet.<br>');
+    console.log(`[SERVER] PokeBinder Server wurde gestartet unter http://localhost:${port}<br>`);
     console.log(`---------------------------------------------------------------------`);
     console.log('');
 });

@@ -121,11 +121,11 @@ class PokemonBoosterPriceCalculator {
                 if (price !== null) {
                     return price;
                 } else {
-                    this.logToGUI(`[SERVER] Preis nicht gefunden für ${url}, Versuch ${attempt} von ${retries}`);
+                    this.logToGUI(`[BPC] Preis nicht gefunden für ${url}, Versuch ${attempt} von ${retries}`);
                     await this.delay(randomInt(1000, 3000)); // Random delay between 1-3 seconds
                 }
             } catch (error) {
-                this.logError(`[SERVER] Fehler beim Abrufen des Preises für ${url}: ${error.message}`);
+                this.logError(`[BPC] Fehler beim Abrufen des Preises für ${url}: ${error.message}`);
             }
         }
         return null;
@@ -137,7 +137,7 @@ class PokemonBoosterPriceCalculator {
         } else if (url.includes('pokecheck.de')) {
             return this.parsePriceFromPokecheck($);
         } else {
-            this.logError(`[SERVER] Nicht supporteter Link: ${url}`);
+            this.logError(`[BPC] Nicht supporteter Link: ${url}`);
             return null;
         }
     }
@@ -170,17 +170,17 @@ class PokemonBoosterPriceCalculator {
                 await new Promise(resolve => setTimeout(resolve, 1000));
             }
     
-            this.logToGUI(`Sammlerstück: ${item.name}`);
+            this.logToGUI(`<br> [BPC] Sammlerstück: ${item.name}`);
     
             if (!item.link) {
-                this.logToGUI(`[SERVER] Übersprungenes Item: ${item.name} hat keinen Link.`);
+                this.logToGUI(`[BPC] Übersprungenes Item: ${item.name} hat keinen Link.`);
                 continue;
             }
     
             try {
                 const currentPrice = await this.getPrice(item.link);
                 if (currentPrice === null) {
-                    this.logToGUI(`[SERVER] Kein Preis gefunden für ${item.name}`);
+                    this.logToGUI(`[BPC] Kein Preis gefunden für ${item.name}`);
                     continue;
                 }
     
@@ -195,14 +195,14 @@ class PokemonBoosterPriceCalculator {
     
                 const previousPrice = parseFloat(item.price);
                 if (currentPrice.toFixed(2) === previousPrice.toFixed(2)) {
-                    this.logToGUI(`[SERVER] Kein Preisupdate für ${item.name} (Preis bleibt: ${currentPrice.toFixed(2)} €)`);
+                    this.logToGUI(`[BPC] Kein Preisupdate für ${item.name} (Preis bleibt: ${currentPrice.toFixed(2)} €)`);
                     continue;
                 }
     
                 const priceChangePercentage = (((currentPrice - startPrice) / startPrice) * 100);
 
                 item.previousPrice = previousPrice;
-                this.logToGUI(`[PBC] Neuer Preis für ${item.name} | ALT: ${previousPrice.toFixed(2)} € NEU: ${currentPrice.toFixed(2)} € | StartPreis: ${startPrice.toFixed(2)}€ Änderung: ${priceChangePercentage.toFixed(2)}%`);
+                this.logToGUI(`[BPC] Neuer Preis für ${item.name}: <br> ALT: ${previousPrice.toFixed(2)}€ <br> NEU: ${currentPrice.toFixed(2)} € <br> StartPreis: ${startPrice.toFixed(2)}€ <br> Prozentuale-Änderung: ${priceChangePercentage.toFixed(2)}%`);
                 item.price = currentPrice.toFixed(2);
                 item.changePercentage = priceChangePercentage.toFixed(2);
                 hasUpdates = true;
@@ -222,7 +222,7 @@ class PokemonBoosterPriceCalculator {
                 });
     
             } catch (error) {
-                this.logError(`[SERVER] Fehler beim Abrufen des Preises für ${item.name}: ${error.message}`);
+                this.logError(`[BPC] Fehler beim Abrufen des Preises für ${item.name}: ${error.message}`);
             }
     
             progressBar.increment();
@@ -317,9 +317,9 @@ class PokemonBoosterPriceCalculator {
             const arrayBuffer = await response.arrayBuffer();
             const buffer = Buffer.from(arrayBuffer);
             fs.writeFileSync(`./public/charts/${itemName}.png`, buffer);
-            this.logToGUI(`[SERVER] Graph wurde erstellt für ${itemName}.`);
+            this.logToGUI(`[BPC] Graph wurde erstellt für ${itemName}.`);
         } catch (error) {
-            this.logError(`[SERVER] Error Graph konnte nicht für ${itemName} hergestellt werden. Grund: ${error.message}`);
+            this.logError(`[BPC] Error Graph konnte nicht für ${itemName} hergestellt werden. Grund: ${error.message}`);
         }
     }
 

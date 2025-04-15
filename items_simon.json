@@ -1,6 +1,6 @@
 [
   {
-    "index": "0",
+    "index": 0,
     "name": "Mimi (SVI 251) [ENG]",
     "price": "30.42",
     "in_stock": "1",
@@ -11,18 +11,18 @@
     "changePercentage": "16.98"
   },
   {
-    "index": 7,
+    "index": 1,
     "name": "Raichu (BS 14) [DE]",
-    "price": "23.89",
+    "price": "22.86",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Base-Set/Raichu-V1-BS14?sellerCountry=7&language=3&minCondition=4",
     "image": "/uploads/1725185016600.jpg",
-    "previousPrice": "23.89",
-    "changePercentage": "19.51"
+    "previousPrice": 23.89,
+    "changePercentage": "14.36"
   },
   {
-    "index": 8,
+    "index": 2,
     "name": "Nachtara V (s8b 244)",
     "price": "36.61",
     "in_stock": "1",
@@ -33,29 +33,29 @@
     "changePercentage": "83.13"
   },
   {
-    "index": 14,
+    "index": 3,
     "name": "Pikachu (sv2a 173)",
-    "price": "10.98",
+    "price": "10.63",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Pokemon-Card-151/Pikachu-V2-sv2a173?sellerCountry=7&language=7&minCondition=2",
     "image": "/uploads/1725186952263.jpg",
-    "previousPrice": "10.98",
-    "changePercentage": "76.55"
+    "previousPrice": 11.05,
+    "changePercentage": "71.40"
   },
   {
-    "index": 19,
+    "index": 4,
     "name": "Pikachu (LOR TG05)",
-    "price": "11.47",
+    "price": "11.13",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Lost-Origin/Pikachu-V2-LORTG05?sellerCountry=7&language=7&minCondition=2",
     "image": "/uploads/1725188185338.jpg",
-    "previousPrice": "11.47",
-    "changePercentage": "138.03"
+    "previousPrice": 11.47,
+    "changePercentage": "135.81"
   },
   {
-    "index": 20,
+    "index": 5,
     "name": "Freunde aus Sinnoh (CRZ 149) [DE]",
     "price": "8.30",
     "in_stock": "1",
@@ -66,18 +66,18 @@
     "changePercentage": "20.00"
   },
   {
-    "index": 50,
+    "index": 6,
     "name": "Don!! (PRB Sabo) (V.2)",
-    "price": "2.19",
+    "price": "2.21",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/OnePiece/Products/Singles/The-Best-Non-English/Don-PRB-Sabo-V2?sellerCountry=7&sellerReputation=3",
     "image": "/uploads/1725615820453.png",
-    "previousPrice": "2.19",
-    "changePercentage": "-71.18"
+    "previousPrice": 2.19,
+    "changePercentage": "-72.30"
   },
   {
-    "index": "",
+    "index": 7,
     "name": "Pikachu V (s8b 222)",
     "price": "23.00",
     "in_stock": "1",
@@ -88,7 +88,7 @@
     "changePercentage": "-31.59"
   },
   {
-    "index": "",
+    "index": 8,
     "name": "Welten im Wandel Booster",
     "price": "30.94",
     "in_stock": "1",
@@ -99,62 +99,62 @@
     "changePercentage": "80.37"
   },
   {
-    "index": "",
+    "index": 9,
     "name": "Volcanion ex (JTG 182)",
-    "price": "28.34",
+    "price": "27.73",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V3-JTG182?sellerCountry=7&sellerReputation=3&language=3",
     "image": "/uploads/1744054012004.png",
-    "previousPrice": "28.94",
-    "changePercentage": "10.15"
+    "previousPrice": 27.74,
+    "changePercentage": "5.20"
   },
   {
-    "index": "",
+    "index": 10,
     "name": "Lillys Piepi ex (JTG 173)",
-    "price": "9.80",
+    "price": "9.95",
     "in_stock": "2",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Lillies-Clefairy-ex-V2-JTG173?sellerCountry=7&sellerReputation=3&language=3",
     "image": "/uploads/1744054093463.png",
-    "previousPrice": "9.80",
-    "changePercentage": "-18.24"
+    "previousPrice": 10.14,
+    "changePercentage": "-18.39"
   },
   {
-    "index": "",
+    "index": 11,
     "name": "Enigmaras Voltrean (JTG 163)",
-    "price": "6.35",
+    "price": "6.17",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V2-JTG163?sellerCountry=7&sellerReputation=3",
     "image": "/uploads/1744107158901.png",
-    "previousPrice": "6.35",
-    "changePercentage": "-15.90"
+    "previousPrice": 6.36,
+    "changePercentage": "-15.57"
   },
   {
-    "index": "12",
+    "index": 12,
     "name": "Tauboga (OBF 208)",
-    "price": "10.44",
+    "price": "9.64",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Obsidian-Flames/Pidgeotto-V2-OBF208?sellerCountry=7&sellerReputation=3&language=1&minCondition=2",
     "image": "/uploads/1744397306680.png",
-    "previousPrice": "10.44",
-    "changePercentage": "-9.54"
+    "previousPrice": 8.99,
+    "changePercentage": "-10.47"
   },
   {
-    "index": "",
+    "index": 13,
     "name": "Volcanion ex (JTG 171)",
-    "price": "1.68",
+    "price": "1.51",
     "in_stock": "1",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Volcanion-ex-V2-JTG171?sellerCountry=7&sellerReputation=3",
     "image": "/uploads/1744107437142.png",
-    "previousPrice": "1.68",
-    "changePercentage": "-19.70"
+    "previousPrice": 1.54,
+    "changePercentage": "-24.50"
   },
   {
-    "index": "",
+    "index": 14,
     "name": "Stachel-Energie (JTG 190)",
     "price": "7.78",
     "in_stock": "1",
@@ -165,7 +165,7 @@
     "changePercentage": "-0.16"
   },
   {
-    "index": "",
+    "index": 15,
     "name": "151 Booster",
     "price": "16.64",
     "in_stock": "2",
@@ -176,14 +176,14 @@
     "changePercentage": "116.72"
   },
   {
-    "index": "",
+    "index": 16,
     "name": "Wailord (JTG 162)",
-    "price": "11.96",
+    "price": "11.17",
     "in_stock": "2",
     "buyed": "0",
     "link": "https://www.cardmarket.com/de/Pokemon/Products/Singles/Journey-Together/Wailord-V2-JTG162?sellerCountry=7&sellerReputation=3&language=3&minCondition=2",
     "image": "/uploads/1744397394322.png",
-    "previousPrice": "11.96",
-    "changePercentage": "-22.78"
+    "previousPrice": 11.6,
+    "changePercentage": "-23.82"
   }
 ]

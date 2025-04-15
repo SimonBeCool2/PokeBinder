@@ -1,130 +1,295 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokeBinder: Overlay</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-            padding: 20px;
-            background: #121212;
-            color: #fff;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #6200ea;
-            color: white;
-            font-size: 18px;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background 0.3s ease;
-            margin: 10px;
-            width: 200px;
-        }
-        .button:hover {
-            background: #3700b3;
-        }
-        .button .material-icons {
-            margin-right: 8px;
-        }
-        #log {
-            width: 90%;
-            max-width: 600px;
-            height: 300px;
-            overflow-y: auto;
-            background: #1e1e1e;
-            color: #03dac6;
-            padding: 10px;
-            font-family: monospace;
-            border-radius: 8px;
-            text-align: left;
-            margin-top: 20px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PokeBinder Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #ffffff;
+      --accent: #6200ea;
+      --background: #121212;
+      --card-bg: #1e1e1e;
+      --text: #ffffff;
+      --log-color: #4caf50;
+      --danger: #f44336;
+      --success: #4caf50;
+    }
+
+    ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: #121212;
+    border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 3px solid #121212;
+    transition: background-color 0.3s;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+    background-color: #333333;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      font-family: 'Roboto', sans-serif;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background-color: var(--card-bg);
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--primary);
+    }
+
+    .material-icons {
+      vertical-align: middle;
+    }
+
+    .dashboard {
+      padding: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      flex-grow: 1;
+      overflow-y: auto;
+    }
+
+    .card {
+        background: #1e1e1e;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        padding: 20px;
+        margin-top: 20px;
+        width: 90%;
+        max-width: 600px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card h2 {
+      font-size: 16px;
+      margin-bottom: 16px;
+      font-weight: 400;
+      color: var(--primary);
+    }
+
+    .card.center-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-width {
+        grid-column: 1 / -1;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent);
+      color: white;
+      font-size: 14px;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 8px 0;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #3700b3;
+    }
+
+    .button i {
+      margin-right: 8px;
+    }
+
+    .button-active {
+      background-color: var(--success) !important;
+    }
+
+    .button-inactive {
+      background-color: var(--danger) !important;
+    }
+
+    #log {
+      background: #232323;
+      color: var(--log-color);
+      font-family: monospace;
+      font-size: 13px;
+      padding: 16px;
+      border-radius: 10px;
+      height: 260px;
+      overflow-y: auto;
+      margin-top: 12px;
+      white-space: pre-wrap;
+      box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 12px;
+      font-size: 12px;
+      color: #777;
+    }
+
+    footer > a{
+        color: #fff;
+        text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h2>PokeBinder Server</h2>
-        <button id="startBtn" class="button" onclick="startServer()">
-            <span class="material-icons">play_arrow</span> Server starten
-        </button>
-        <button id="stopBtn" class="button" onclick="stopServer()" style="display: none;">
-            <span class="material-icons">pause</span> Server Stopen
-        </button>
-        <button id="autoUpdateBtn" class="server-btn">⏱ Auto Update: Deaktiviert</button>
-        <div id="log">Alle Aktivitäten:</div>
+
+  <header>
+    <h1>PokeBinder Dashboard</h1>
+  </header>
+
+  <div class="dashboard" style="grid-column: span 2;">
+    <!-- Server Control -->
+    <div class="card center-button">
+      <h2>Server Steuerung</h2>
+      <button id="startBtn" class="button" onclick="startServer()">
+        <i class="material-icons">play_arrow</i> Server starten
+      </button>
+      <button id="stopBtn" class="button" onclick="stopServer()" style="display: none;">
+        <i class="material-icons">stop</i> Server stoppen
+      </button>
     </div>
 
-    <script>
-        const { ipcRenderer } = require('electron');
-        ipcRenderer.on('log', (event, message) => {
-            const logDiv = document.getElementById('log');
-            logDiv.innerHTML += `<p>${message}</p>`;
-            logDiv.scrollTop = logDiv.scrollHeight;
-        });
+    <!-- Auto Update -->
+    <div class="card center-button">
+      <h2>Auto Updates</h2>
+      <button id="autoUpdateBtn" class="button button-inactive" style="display: none;">Deaktiviert</button>
+    </div>
 
-        ipcRenderer.on('server-status', (event, isRunning) => {
-            document.getElementById('startBtn').style.display = isRunning ? 'none' : 'flex';
-            document.getElementById('stopBtn').style.display = isRunning ? 'flex' : 'none';
-        });
+    <!-- Cleaner -->
+    <div class="card center-button">
+        <h2>Item Cleanup</h2>
+        <button class="button" onclick="runCleaner()">
+          <i class="material-icons">cleaning_services</i> IDs neu zuweisen
+        </button>
+    </div>
 
-        const autoUpdateBtn = document.getElementById('autoUpdateBtn');
-        let autoUpdateInterval = null;
-        let countdown = 600; // 10 Minuten in Sekunden
+    <div class="card center-button">
+        <h2>PokeBinder Client</h2>
+        <p style="font-size: 13px;font-weight: 300;margin-top: -13px;">Öffnet PokeBinder im Browser.</p>
+        <button id="client-opener" class="button" style="display:none" onclick="openClient()">
+            <span class="material-icons">open_in_browser</span> PokeBinder
+        </button>
+    </div>
 
-        function formatTime(seconds) {
-            const mins = Math.floor(seconds / 60);
-            const secs = seconds % 60;
-            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
-        }
+    <!-- Server Log -->
+    <div class="card full-width" style="grid-column: span 1;">
+      <h2>Server Log</h2>
+      <div id="log">Alle Aktivitäten:</div>
+    </div>
+  </div>
 
-        function updateAutoUpdateLabel() {
-            autoUpdateBtn.textContent = `⏱ Auto Update: ${autoUpdateInterval ? 'Aktiviert - ' + formatTime(countdown) : 'Deaktiviert'}`;
-        }
+  <footer>&copy; PokeBinder v3.0.4 - Entwickelt von <a href="https://github.com/SimonBeCool2/" target="_blank">Simon Bucher</a></footer>
 
-        autoUpdateBtn.addEventListener('click', () => {
-            if (autoUpdateInterval) {
-                clearInterval(autoUpdateInterval);
-                autoUpdateInterval = null;
-                updateAutoUpdateLabel();
-                ipcRenderer.send('cancel-auto-update');
-            } else {
-                countdown = 10;
-                updateAutoUpdateLabel();
-                autoUpdateInterval = setInterval(() => {
-                    countdown--;
-                    updateAutoUpdateLabel();
+  <script>
+    const { ipcRenderer } = require('electron');
 
-                    if (countdown <= 0) {
-                        countdown = 600;
-                        ipcRenderer.send('trigger-auto-update');
-                    }
-                }, 1000);
-            }
-        });
+    ipcRenderer.on('log', (event, message) => {
+      const logDiv = document.getElementById('log');
+      logDiv.innerHTML += `${message}\n`;
+      logDiv.scrollTop = logDiv.scrollHeight;
+    });
 
-        function startServer() {
-            ipcRenderer.send('start-server');
-        }
+    ipcRenderer.on('server-status', (event, isRunning) => {
+      document.getElementById('startBtn').style.display = isRunning ? 'none' : 'flex';
+      document.getElementById('stopBtn').style.display = isRunning ? 'flex' : 'none';
+    });
 
-        function stopServer() {
-            ipcRenderer.send('stop-server');
-        }
-    </script>
+    const autoUpdateBtn = document.getElementById('autoUpdateBtn');
+    let autoUpdateInterval = null;
+    let countdown = 600;
+
+    function formatTime(seconds) {
+      const mins = Math.floor(seconds / 60);
+      const secs = seconds % 60;
+      return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+
+    function updateAutoUpdateLabel() {
+      autoUpdateBtn.textContent = `${autoUpdateInterval ? 'Aktiviert - ' + formatTime(countdown) : 'Deaktiviert'}`;
+      autoUpdateBtn.classList.toggle('button-active', !!autoUpdateInterval);
+      autoUpdateBtn.classList.toggle('button-inactive', !autoUpdateInterval);
+    }
+
+    autoUpdateBtn.addEventListener('click', () => {
+      if (autoUpdateInterval) {
+        clearInterval(autoUpdateInterval);
+        autoUpdateInterval = null;
+        updateAutoUpdateLabel();
+        ipcRenderer.send('cancel-auto-update');
+      } else {
+        countdown = 10;
+        updateAutoUpdateLabel();
+        autoUpdateInterval = setInterval(() => {
+          countdown--;
+          updateAutoUpdateLabel();
+
+          if (countdown <= 0) {
+            countdown = 600;
+            ipcRenderer.send('trigger-auto-update');
+          }
+        }, 1000);
+      }
+    });
+
+    function startServer() {
+      ipcRenderer.send('start-server');
+      document.getElementById('autoUpdateBtn').style.display = "flex";
+      document.getElementById('client-opener').style.display = "flex";
+    }
+
+    function stopServer() {
+      ipcRenderer.send('stop-server');
+      document.getElementById('autoUpdateBtn').style.display = "none";
+      document.getElementById('client-opener').style.display = "none";
+    }
+
+    function runCleaner() {
+        ipcRenderer.send('run-cleaner');
+    }
+
+    function openClient() {
+        const { shell } = require('electron');
+        shell.openExternal('http://localhost/');
+    }
+  </script>
 </body>
 </html>

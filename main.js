@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain, Menu } = require('electron');
 const { spawn } = require('child_process');
 const path = require('path');
+const { cleanItems } = require('./cleaner.js');
 
 let mainWindow;
 let serverProcess = null;
@@ -8,8 +9,8 @@ let child = null;
 
 app.whenReady().then(() => {
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 900,
+        height: 700,
         icon: path.join(__dirname, 'public/images/loader.jpg'),
         webPreferences: {
             nodeIntegration: true,
@@ -36,7 +37,29 @@ function startServer() {
     serverRunning = true;
 
     serverProcess.stdout.on('data', (data) => {
-        sendLog(`[SERVER] ${data.toString()}`);
+        const text = data.toString();
+    
+        // Splitte z.B. an Zeilenumbrüchen oder mehreren JSON-Objekten
+        const chunks = text.split(/(?<=})\s*(?={)/); // trennt zwischen zwei geschlossenen JSON-Objekten
+    
+        for (const chunk of chunks) {
+            const trimmed = chunk.trim();
+    
+            if (trimmed.startsWith('{') && trimmed.endsWith('}')) {
+                try {
+                    const parsed = JSON.parse(trimmed);
+                    const message = parsed.data?.trim();
+                    if (message) {
+                        sendLog(message);
+                    }
+                } catch (err) {
+                    console.warn('JSON konnte nicht geparst werden:', err.message);
+                }
+            } else {
+                // Kein JSON, einfach direkt ausgeben
+                sendLog(trimmed);
+            }
+        }
     });
 
     serverProcess.stderr.on('data', (data) => {
@@ -44,7 +67,7 @@ function startServer() {
     });
 
     serverProcess.on('exit', (code) => {
-        sendLog(`[SERVER] Beendet mit Code ${code}`);
+        sendLog(`[GUI] Server Prozess beendet mit ${code}`);
         serverProcess = null;
         serverRunning = false;
         updateServerStatus();
@@ -54,7 +77,7 @@ function startServer() {
     updateServerStatus(true);
 
     // Zusätzlicher Debug-Log, um zu überprüfen, ob serverProcess korrekt ist
-    console.log('Serverprozess gestartet:', serverProcess.pid);
+    sendLog(`[GUI] Serverprozess gestartet: ${serverProcess.pid}`);
 }
 
 function stopServer() {
@@ -104,6 +127,10 @@ app.on('window-all-closed', () => {
     }
 });
 
+ipcMain.on('run-cleaner', () => {
+    cleanItems();
+  });
+
 ipcMain.on('trigger-auto-update', () => {
     if (serverProcess && serverProcess.stdin.writable) {
         serverProcess.stdin.write(JSON.stringify({ type: 'triggerUpdate' }) + '\n');
@@ -113,7 +140,7 @@ ipcMain.on('trigger-auto-update', () => {
 });
 
 ipcMain.on('cancel-auto-update', () => {
-    console.log('[AUTO-UPDATE] Scheduler gestoppt.');
+    console.log('[AUTO-UPDATE] Auto Updater gestoppt.');
 });
 ipcMain.on('start-server', () => startServer());
 ipcMain.on('stop-server', () => stopServer());

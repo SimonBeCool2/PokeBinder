@@ -41,5 +41,4 @@ const cleanItems = () => {
     console.log('Items have been updated with unique IDs.');
 };
 
-// Run the cleaner
-cleanItems();
+module.exports = { cleanItems };
