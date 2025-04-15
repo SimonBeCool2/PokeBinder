@@ -1,4 +1,5 @@
-![Pokebinder](https://i.imgur.com/yUtpmCp.png)
+![PokeBinder Client](https://i.imgur.com/yUtpmCp.png)
+![PokeBinder Server](https://i.imgur.com/nGLsyXN.png)
 
 # PokeBinder
  Die erste Lösung um seine Sammlung Lokal auf Cardmarket zu tracken und bequem zu prüfen wie sehr eine Sammlung gestiegen oder gesunken ist.
@@ -11,6 +12,8 @@
 * Sammlungswert Errechnung.
 * Editieren/Löschen vorhandener Sammlungs-Gegenstände.
 * Hinzufügen neuer Sammel-Gegenstände
+* [new] Auto Updates - Server Seitig (alle 10 Minuten)
+* [new] Server Dashboard - easy zu handlen.
 
 # Anleitung
 1. Führen sie die "Installieren.bat" aus | Diese Installiert die notwendigen NodeJS Libs, die das Programm braucht.
