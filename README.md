@@ -1,28 +1,42 @@
 # PokeBinder
- Die erste Lösung um seine Sammlung Lokal auf Cardmarket zu tracken und bequem zu prüfen wie sehr eine Sammlung gestiegen oder gesunken ist.
+
+Behalte den Überblick über deine Pokémon-Investments – lokal, sicher und in Echtzeit.
+**PokeBinder** ist die erste Lösung, um deine Sammlung lokal mit Cardmarket zu tracken und den Wertverlauf bequem zu beobachten. Mit dem PokeBinder Client & Server hast du alles im Griff.
+ 
  ![PokeBinder Client](https://i.imgur.com/yUtpmCp.png)
  ![PokeBinder Server](https://i.imgur.com/nGLsyXN.png)
+ 
 ## Features
-* Prozentuale Anzeige des Wertanstiegs/abfall | Anhand des ersten getrackten Preises.
-* Autonomes Updaten der Sammlung in einem Klick.
-* Wertanstieg/abfall Tracking per Graph
-* Direkt Anzeige ob der Preis gedroppt oder gestiegen ist.
-* Sammlungswert Errechnung.
-* Editieren/Löschen vorhandener Sammlungs-Gegenstände.
-* Hinzufügen neuer Sammel-Gegenstände
-* [new] Auto Updates - Server Seitig (alle 10 Minuten)
-* [new] Server Dashboard - easy zu handlen.
-* [new] ID Cleaner 
 
-# Anleitung
-1. Führen sie die "Installieren.bat" aus | Diese Installiert die notwendigen NodeJS Libs, die das Programm braucht.
-2. Führen sie die "Pokebinder starten.bat aus | Startet das Server Overlay."
-3. Drücke auf "Server starten".
-4. Öffnen sie den Browser und öffnen sie http://localhost/
-5. Viel Spaß beim genießen.
+- Prozentuale Anzeige von Wertanstieg/-abfall – basierend auf dem ersten getrackten Preis
+- Autonomes Updaten der Sammlung mit nur einem Klick
+- Wertverlauf-Graph zur visuellen Nachverfolgung
+- Sofortanzeige: Ist der Preis gestiegen oder gefallen?
+- Automatische Berechnung des Sammlungswertes
+- Editieren & Löschen vorhandener Einträge
+- Hinzufügen neuer Sammel-Gegenstände
+- 🆕 Auto-Updates (serverseitig, alle 10 Minuten)
+- 🆕 Server-Dashboard – einfach und übersichtlich
+- 🆕 ID-Cleaner
 
-# Schlusswort
-Ich gebe mein bestes die Anwendung immer weiter auszubauen :)
+---
+
+## Anleitung
+
+1. Führen Sie die `Installieren.bat` aus – installiert alle nötigen NodeJS-Bibliotheken.
+2. Starten Sie `Pokebinder starten.bat` – öffnet das Server-Overlay.
+3. Klicken Sie auf **„Server starten“**.
+4. Öffnen Sie Ihren Browser und navigieren Sie zu **http://localhost/**
+5. Viel Spaß beim Verwalten Ihrer Sammlung!
+
+---
+
+## Schlusswort
+
+Ich gebe mein Bestes, die Anwendung stetig weiter auszubauen 🙂  
+Danke fürs Ausprobieren!
+
+---
 
 
 
