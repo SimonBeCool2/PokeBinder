@@ -1,9 +1,7 @@
-![PokeBinder Client](https://i.imgur.com/yUtpmCp.png)
-![PokeBinder Server](https://i.imgur.com/nGLsyXN.png)
-
 # PokeBinder
  Die erste Lösung um seine Sammlung Lokal auf Cardmarket zu tracken und bequem zu prüfen wie sehr eine Sammlung gestiegen oder gesunken ist.
-
+ ![PokeBinder Client](https://i.imgur.com/yUtpmCp.png)
+ ![PokeBinder Server](https://i.imgur.com/nGLsyXN.png)
 ## Features
 * Prozentuale Anzeige des Wertanstiegs/abfall | Anhand des ersten getrackten Preises.
 * Autonomes Updaten der Sammlung in einem Klick.
