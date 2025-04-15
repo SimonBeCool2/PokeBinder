@@ -14,6 +14,7 @@
 * Hinzufügen neuer Sammel-Gegenstände
 * [new] Auto Updates - Server Seitig (alle 10 Minuten)
 * [new] Server Dashboard - easy zu handlen.
+* [new] ID Cleaner 
 
 # Anleitung
 1. Führen sie die "Installieren.bat" aus | Diese Installiert die notwendigen NodeJS Libs, die das Programm braucht.
