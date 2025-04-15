@@ -1,7 +1,9 @@
 # PokeBinder
 
 Behalte den Überblick über deine Pokémon-Investments – lokal, sicher und in Echtzeit.
-**PokeBinder** ist die erste Lösung, um deine Sammlung lokal mit Cardmarket zu tracken und den Wertverlauf bequem zu beobachten. Mit dem PokeBinder Client & Server hast du alles im Griff.
+
+**PokeBinder** ist die erste Lösung, um deine Sammlung lokal mit Cardmarket zu tracken und den Wertverlauf bequem zu beobachten.
+Mit dem PokeBinder Client & Server hast du alles im Griff.
  
  ![PokeBinder Client](https://i.imgur.com/yUtpmCp.png)
  ![PokeBinder Server](https://i.imgur.com/nGLsyXN.png)
