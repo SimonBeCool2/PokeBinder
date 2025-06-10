@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="container">
-        <h1>Mein Lager <button id="update-catalog" type="button"><span class="material-icons" style="color:#fff">sync</span></button><div id="loading-bar" style="display: none;">
+        <h1><logo></logo><b style="font-weight: 500;color: #e54949;">Poke</b>Binder <button id="update-catalog" type="button"><span class="material-icons" style="color:#fff">sync</span></button><div id="loading-bar" style="display: none;">
             <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                 <span id="progress-percentage" style="font-size:14px;position: absolute;top: 85px;text-align: center;font-weight: 700;">0%</span>
@@ -31,7 +31,7 @@
         </h1>
         <!-- Floating Action Button -->
     <div id="fab" class="fab">
-        <span class="material-icons">add</span>
+        <span class="material-icons" style="position: relative;top: 5px;background: #101929;border: 2px solid #313232;color: #ee1b22;">add</span>
     </div>
 
 <!-- Modal für das Hinzufügen von Items -->
@@ -151,9 +151,9 @@
                 if (item.previousPrice) {
                     const previousPrice = parseFloat(item.previousPrice);
                     if (price > previousPrice) {
-                        priceChange = '<span class="material-icons" style="color: #6cff77;float: right;position: absolute;line-height: 15px;margin-left: 60px;">trending_up</span>';
+                        priceChange = '<span class="material-icons" style="color: #72ff85;float: right;position: absolute;line-height: 15px;margin-left: 105px;margin-top: -15px;">trending_up</span>';
                     } else if (price < previousPrice) {
-                        priceChange = '<span class="material-icons" style="color: #ff7272;float: right;position: absolute;line-height: 15px;margin-left: 60px;">trending_down</span>';
+                        priceChange = '<span class="material-icons" style="color: #ff7272;float: right;position: absolute;line-height: 15px;margin-left: 105px;margin-top: -15px;">trending_down</span>';
                     }
                 }
                 $('#item-list').append(`
@@ -162,11 +162,11 @@
                             <div class="item-image">
                                 <img src="${item.image}" alt="Item Image">
                             </div>
-                            <div class="item-details" style="float: left;margin-left: 50px;">
+                            <div class="item-details" style="float: left;">
                                 <div class="item-name">${item.name}</div>
                                 <div class="item-price">Preis: ${price.toFixed(2)}€ ${priceChange}</div>
-                                <button type="button" class="collapsible" style="width: 540px;font-weight: 600;"><span class="material-icons" style="color: #4576c5;">info</span>Mehr Informationen</button>
-                                <div class="content" style="width: 518px;margin-top: -5px;padding: 10px 10px; display: none;">
+                                <button type="button" class="collapsible" style="font-weight: 600;"><span class="material-icons" style="color: #4576c5;margin-top: -3px;font-size: 16px;">info</span>Mehr Informationen</button>
+                                <div class="content" style="width: 518px;margin-top: -4px;padding: 10px;background: rgb(10, 17, 26);border: 2px solid rgb(24, 71, 141);border-radius: 0px 6px 6px;position: relative;top: 4px;display: none;">
                                     <div class="item-stock">
                                         <span class="material-icons">inventory</span> <b>${inStock}</b>
                                         <span class="tooltiptext">Auf Lager</span>
@@ -205,15 +205,29 @@
                 `);
             });
             $('#item-list').append(`
-                <li>Ausgaben derzeit: <b style="color: #af4343" id="total-value-buyeds">${totalValueBuyeds.toFixed(2)}€</b></li>
-                <li>Gewinn derzeit: <b style="color: #43af56" id="total-value-buyed">+ ${totalValueBuyed.toFixed(2)}€</b></li>
-                <li>Gesamtwert derzeit: <b id="total-value">${totalValue.toFixed(2)}€</b></li>
+                <li class="allstats" style="background: #af4343;">Ausgaben derzeit: <b id="total-value-buyeds">${totalValueBuyeds.toFixed(2)}€</b></li>
+                <li class="allstats" style="background: #43af56;">Gewinn derzeit: <b id="total-value-buyed">+ ${totalValueBuyed.toFixed(2)}€</b></li>
+                <li class="allstats">Gesamtwert derzeit: <b id="total-value">${totalValue.toFixed(2)}€</b></li>
             `);
-            $('.collapsible').off('click').on('click', function() {
-                $(this).toggleClass('active');
-                var content = $(this).next('.content');
-                content.slideToggle();
-            });
+            $('.collapsible').off('click').on('click', function () {
+    $(this).toggleClass('active');
+    var content = $(this).next('.content');
+    var listItem = $(this).closest('li');
+    if ($(this).is(':visible')) {
+            listItem.find('.actions').css('display', 'none');
+        } else {
+            listItem.find('.actions').css('display', 'block');
+        }
+
+    content.slideToggle(0, function () {
+        // Wird nach dem Öffnen oder Schließen aufgerufen
+        if ($(this).is(':visible')) {
+            listItem.find('.actions').removeClass('actions').addClass('actions2').css('display', 'block');
+        } else {
+            listItem.find('.actions2').removeClass('actions2').addClass('actions');
+        }
+    });
+});
         $('.edit-item').off('click').on('click', function() {
             $('#add-item-modal').fadeIn();
                 const index = $(this).closest('li').data('index');

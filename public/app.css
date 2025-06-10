@@ -1,25 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 body {
     font-family: "Roboto Flex", sans-serif;
-    background-color: #101b2b;
+    background-color: #101929;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+logo {
+    background: url(/images/logo.png);
+    height: 40px;
+    width: 40px;
+    float: left;
+    background-size: cover;
+    margin-top: -5px;
+    margin-right: 10px;
+    border: 2px solid #e54949;
+    border-radius: 50px;
+}
+
 .container {
-    background-color: #00000036;
+    background-color: #00000000;
     border-radius: 8px;
     padding: 20px;
     width: 100%;
     max-width: 900px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
@@ -67,44 +79,45 @@ ul {
     padding: 0;
 }
 li {
-    background-color: #00000012;
+    background-color: #00000008;
     margin: 10px 0;
     padding: 15px;
-    border: 1px solid #00000033;
-    border-radius: 4px;
-    display: flex;
+    border: 2px solid #afafaf12;
+    border-radius: 8px;
     align-items: center;
-    justify-content: space-between;
     color: #d1d1d1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width: 200px;
+    height: 355px;
+    float: left;
+    margin-right: 49px;
+    margin-bottom: 49px;
 }
 img {
-    width: 104px;
-    height: 140px;
+    width: 160px;
+    height: 225px;
     border-radius: 4px;
     margin-right: 15px;
     filter: drop-shadow(0px 1px 12px #2929293b);
-    border: 2px solid #12498f;
+    border: 2px solid #ffffff45;
     box-shadow: 0 1px 8px rgb(0 0 0 / 24%);
+    float: left;
+    margin-left: 15px;
 }
 .item-info {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-grow: 1; */
+    float: left;
 }
 .item-details {
-    flex-direction: column;
-    gap: 10px;
+    /* flex-direction: column; */
+    /* gap: 10px; */
+    float: left;
+    width: 162px;
 }
 .item-details > div {
     float: left;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    background-color: #00000000;
-    border: 1px solid #0000007a;
-    padding: 10px;
-    border-radius: 1px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     width: 240px;
     text-align: center;
@@ -163,12 +176,12 @@ img {
     margin-left: 12px;
     margin-bottom: 15px;
     background-color: #ffffff00;
-    border: 1px solid #1d458b;
+    border: 1px solid #0e1723;
     padding: 10px;
-    border-radius: 1px;
+    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
-    width: 17.8%;
+    width: 43px;
     text-align: center;
     font-size: 13px;
     line-height: 30px;
@@ -182,27 +195,55 @@ img {
 }
 
 .item-details > .item-name{
-    background: #ffffff0a;
     color: #fff;
     font-weight: 600;
-    border: 1px solid #2c2c2c;
     text-align: center;
+    float: left;
+    width: 137px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    text-align: left;
+    margin-left: 15px;
+    height: 32px;
 }
 .item-details > .item-price{
-    background: #18478d;
-    color: #fff;
+    color: #bdbdbd;
     font-weight: 600;
-    border: 1px solid #486189;
-    text-align: center;
+    margin-bottom: 20px;
+    float: left;
+    width: 132px;
+    text-align: left;
+    margin-left: 15px;
 }
-.actions {
-    display: flex;
-    gap: 10px;
+.allstats{
+    height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 21px;
+    border: 2px solid #ffffff12;
 }
+
+.actions2{
+    float: left;
+    position: relative;
+    margin-top: -360px;
+    margin-left: 328px;
+    width: 125px;
+    height: 130px;
+    z-index: 3;
+}
+
+.actions {float: left;/* position: relative; */margin-top: -310px;margin-left: 198px;width: 38px;height: 130px;}
 .material-icons{
     color: #c2c2c2;
     cursor: pointer;
     filter: drop-shadow(0px 1px 1px #2929293b);
+    background: #0a111a;
+    border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border: 2px solid;
 }
 a {
     text-decoration: none;
@@ -228,11 +269,11 @@ input[type=file]::file-selector-button:hover {
     color: #fff;
 }
 .collapsible {
-    background-color: #ffffff0f;
     color: white;
     cursor: pointer;
     padding: 10px;
-    width: 100%;
+    width: 200px !important;
+    height: 45px;
     border: none;
     text-align: left;
     outline: none;
@@ -257,6 +298,7 @@ input[type=file]::file-selector-button:hover {
     display: none;
     overflow: hidden;
     background-color: #00000021;
+    z-index: 3;
 }
 .progress {
     width: 100%;
@@ -274,12 +316,11 @@ input[type=file]::file-selector-button:hover {
 }
 .tooltiptext {
   visibility: hidden;
-  width: auto;
-  background-color: #1d458b;
+  width: 63px;
   color: #fff;
   text-align: center;
   border-radius: 1px;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   position: absolute;
   /* z-index: 1; */
   bottom: 4%;
@@ -289,7 +330,9 @@ input[type=file]::file-selector-button:hover {
   transition: opacity 0.3s;
   z-index: 9999;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-size: 12px;
+  font-size: 10px;
+  text-align: center;
+  top: 75px;
 }
 
 .tooltiptext::after {
@@ -322,15 +365,17 @@ input[type=file]::file-selector-button:hover {
   }
   #update-catalog{
     float: right;
-    line-height: 1px;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 32%);
+    margin-top: -1px;
+    padding: 0px;
+    height: 37px;
+    background: #ffffff00;
   }
   /* Floating Action Button (FAB) */
 .fab {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #6200ea;
+    background-color: #ee1b22;
     color: white;
     border-radius: 50%;
     width: 56px;
@@ -340,10 +385,11 @@ input[type=file]::file-selector-button:hover {
     justify-content: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    border: 2px solid #313232;
 }
 
 .fab:hover {
-    background-color: #3700b3;
+    background-color: #e54949;
 }
 
 /* Modal */
