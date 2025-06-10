@@ -4,7 +4,7 @@ Behalte den Überblick über deine Pokémon-Investments – lokal, sicher und in
 
 **PokeBinder** ist die erste Lösung, deine eigene Sammlung lokal mit Cardmarket zu tracken und den Wertverlauf bequem zu beobachten.
  
- ![PokeBinder Client](https://i.imgur.com/yUtpmCp.png)
+ ![PokeBinder Client](https://i.imgur.com/BasOdGK.png)
  ![PokeBinder Server](https://i.imgur.com/nGLsyXN.png)
 
 Mit dem PokeBinder Client & Server hast du alles im Griff.
